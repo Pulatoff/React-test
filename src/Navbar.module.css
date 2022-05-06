@@ -1,0 +1,22 @@
+.navbar {
+  box-sizing: inherit;
+  grid-area: n;
+  padding: 20px;
+  background-color: var(--color-5);
+}
+
+.navbar__items {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.navbar__items a:last-child {
+  margin-top: 20px;
+}
+
+.navbar__items a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--color-text-1);
+}
