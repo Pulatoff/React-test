@@ -1,4 +1,5 @@
 import React from "react";
+import MyPosts from "./MyPosts/MyPosts";
 import classes from "./Profile.module.css";
 
 function Profile() {
@@ -24,23 +25,7 @@ function Profile() {
           </ul>
         </div>
       </div>
-      <div className={classes.content__post}>
-        <h2 className={classes["content__post--heading"]}>My Posts</h2>
-      </div>
-      <div className={classes.content__form}>
-        <form>
-          <textarea
-            className={classes.input__posts}
-            type={"text"}
-            placeholder="Write post"
-          ></textarea>
-          <button>Submit</button>
-        </form>
-      </div>
-      <div className={classes.content__myPosts}>
-        <div>Post 1</div>
-        <div>Post 2</div>
-      </div>
+      <MyPosts />
     </div>
   );
 }
