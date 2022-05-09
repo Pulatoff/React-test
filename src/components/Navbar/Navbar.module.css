@@ -3,6 +3,7 @@
   grid-area: n;
   padding: 20px;
   background-color: var(--color-5);
+  border-radius:3px;
 }
 
 .navbar__items {
@@ -12,7 +13,7 @@
 }
 
 .navbar__items a:last-child {
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 
 .navbar__items a {
