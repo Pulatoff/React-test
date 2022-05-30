@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 50px;
+}
+
+.dialogUsers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dialogUser {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
